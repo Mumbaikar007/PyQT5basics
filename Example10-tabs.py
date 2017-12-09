@@ -18,7 +18,7 @@ class App(QMainWindow):
         self.table_widget = MyTableWidget(self)
         self.setCentralWidget(self.table_widget)
 
-        self.sh ow()
+        self.show()
 
 
 class MyTableWidget(QWidget):

@@ -8,7 +8,7 @@ import sys
 
 class Dialog(QDialog):
     def slot_method(self):
-        #print('slot method called.')
+        print('slot method called.')
 
     def __init__(self):
         super(Dialog, self).__init__()
@@ -26,4 +26,4 @@ class Dialog(QDialog):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     dialog = Dialog()
-sys.exit(dialog.exec_())
+    sys.exit(dialog.exec_())

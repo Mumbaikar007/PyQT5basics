@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Email_In_Python/.idea/Email_In_Python.iml" filepath="$PROJECT_DIR$/../Email_In_Python/.idea/Email_In_Python.iml" />
       <module fileurl="file://$USER_HOME$/Learning Stuff/OpencvPython/.idea/OpencvPython.iml" filepath="$USER_HOME$/Learning Stuff/OpencvPython/.idea/OpencvPython.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PyQT5basics.iml" filepath="$PROJECT_DIR$/.idea/PyQT5basics.iml" />
     </modules>

@@ -5,6 +5,7 @@ from PyQt5.QtCore import pyqtSlot
 
 
 class App(QWidget):
+
     def __init__(self):
         super().__init__()
         self.title = 'PyQt5 button'
@@ -27,7 +28,7 @@ class App(QWidget):
 
     @pyqtSlot()
     def on_click(self):
-        #print('PyQt5 button click')
+        print('PyQt5 button click')
 
 
 if __name__ == '__main__':
